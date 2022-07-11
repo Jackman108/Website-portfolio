@@ -1,12 +1,13 @@
 import React from 'react';
 import './contact.css'
 
-const Contact = () => {
+const Contact = ({ innerRef }) => {
     return (
         <section id='contact'>
-            Contact
+            <div ref={innerRef}>
+                About
+            </div>
         </section>
-    );
-};
-
+    )
+}
 export default Contact;

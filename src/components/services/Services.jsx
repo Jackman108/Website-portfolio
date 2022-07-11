@@ -1,11 +1,13 @@
 import React from 'react';
 import './services.css'
-const Services = () => {
+
+const Services = ({ innerRef }) => {
     return (
         <section id='services'>
-            Services
+            <div ref={innerRef}>
+                About
+            </div>
         </section>
-    );
-};
-
+    )
+}
 export default Services;

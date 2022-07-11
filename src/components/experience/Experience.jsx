@@ -1,11 +1,13 @@
 import React from 'react';
 import './experience.css'
-const Experience = () => {
+
+const Experience = ({ innerRef }) => {
     return (
         <section id='experience'>
-            Experience
+            <div ref={innerRef}>
+                About
+            </div>
         </section>
-    );
-};
-
+    )
+}
 export default Experience;
