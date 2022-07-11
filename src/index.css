@@ -11,10 +11,10 @@
 }
 
 :root {
-    --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
+    --color-bg: #1e3345;
+    --color-bg-variant: #21394d;
     --color-primary: #3F729B;
-    --color-primary-variant: #146EB4;
+    --color-primary-variant: #325775;
     --color-white: #94cfff;
     --color-light: #569dd6;
 
@@ -87,11 +87,11 @@ a:hover {
 .btn {
     width: max-content;
     display: inline-block;
-    color: var(--color-primary);
+    color: var(--color-primary-variant);
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    border: 1px solid var(--color-primary);
+    border: 1px solid var(--color-primary-variant);
     transition: var(--transition);
 }
 
