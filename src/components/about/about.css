@@ -43,7 +43,7 @@
 
 .about__card:hover {
     background: transparent;
-    border-color: var(--color-white);;
+    border-color: var(--color-bg-variant);;
     cursor: default;
 }
 
@@ -60,7 +60,7 @@
 
 .about__card small {
     font-size: 0.7rem;
-    color: var(--color-light);
+    color: var(--color-primary);
 }
 
 .about__content p {
