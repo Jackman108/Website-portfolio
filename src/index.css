@@ -133,13 +133,3 @@ img {
         margin-bottom: 2rem;
     }
 }
-
-@media screen and (max-width: 600px) {
-    .container {
-        width: var(--container-width-sm);
-    }
-
-    section {
-        margin-bottom: 2rem;
-    }
-}
