@@ -21,23 +21,23 @@ const About = ({innerRef}) => {
 
                     <div className="about__content">
                         <div className="about__cards">
-                            <article className="about__card">
+                            <a href={"#experience"} className="about__card">
                                 <FaAward className="about__icon"/>
                                 <h5>Experience</h5>
                                 <small>2+ Years Working</small>
-                            </article>
+                            </a>
 
-                            <article className="about__card">
+                            <a href={"#testimonials"} className="about__card">
                                 <FiUsers className="about__icon"/>
                                 <h5>Clients</h5>
                                 <small>100+ Worldwide</small>
-                            </article>
+                            </a>
 
-                            <article className="about__card">
+                            <a href={"#portfolio"} className="about__card">
                                 <VscFolderLibrary className="about__icon"/>
                                 <h5>Projects</h5>
                                 <small>50+ Completed</small>
-                            </article>
+                            </a>
                         </div>
 
                         <p>Hi! My name is Evgeny. I am a web developer in the React JS stack.
