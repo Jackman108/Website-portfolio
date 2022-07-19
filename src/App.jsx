@@ -8,18 +8,18 @@ import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import {useEffect, useState} from "react";
-import { useInView } from "react-intersection-observer";
+import {useInView} from "react-intersection-observer";
 
 const App = () => {
-    const { ref, inView } = useInView();
+    const {ref, inView} = useInView();
 
-    const { ref: ref1, inView: inView1 } = useInView();
+    const {ref: ref1, inView: inView1} = useInView();
 
-    const { ref: ref2, inView: inView2 } = useInView();
+    const {ref: ref2, inView: inView2} = useInView();
 
-    const { ref: ref3, inView: inView3 } = useInView();
+    const {ref: ref3, inView: inView3} = useInView();
 
-    const { ref: ref4, inView: inView4 } = useInView();
+    const {ref: ref4, inView: inView4} = useInView();
 
     const [activeElement, setActiveElement] = useState('#')
 
@@ -48,17 +48,16 @@ const App = () => {
 
     return (
         <>
-            <Header innerRef={ref} />
+            <Header innerRef={ref}/>
             <Nav activeElement={activeElement}/>
-            <About innerRef={ref1} />
-            <p>{activeElement} {inView.toString()}</p>
-            <Experience innerRef={ref2} />
-            <Services innerRef={ref3} />
-            <Portfolio />
-            <Testimonials />
-            <Contact innerRef={ref4} />
-            <Footer />
-            <p>{activeElement}</p>
+            <About innerRef={ref1}/>
+            <Experience innerRef={ref2}/>
+            <Services innerRef={ref3}/>
+            <Portfolio/>
+            <Testimonials/>
+            <Contact innerRef={ref4}/>
+            <Footer/>
+
         </>
 
     )
